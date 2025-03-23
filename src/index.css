@@ -45,7 +45,8 @@ input[type="number"] {
 
 /* Individual items */
 .marquee-item {
-
+  max-width: max-content;
+  margin: auto;
   border: 1px solid gray;
   padding: 15px;
   border-radius: 50px;
