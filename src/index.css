@@ -33,6 +33,7 @@ input[type="number"] {
   height: 500px;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 /* Moving container */
