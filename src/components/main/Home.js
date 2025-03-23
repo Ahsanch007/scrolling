@@ -4,10 +4,10 @@ export const Home = () => {
   return (
     <div className="h-screen max-w-[400px] mx-auto w-full flex justify-center items-center overflow-hidden relative">
       {/* Top Blur Overlay */}
-      <div className="absolute top-0 left-0 w-full h-20 bg-white blur-lg z-10 pointer-events-none"></div>
+      <div className="absolute top-[30px] left-0 w-full h-32 bg-white blur-lg z-10 pointer-events-none"></div>
 
       {/* Bottom Blur Overlay */}
-      <div className="absolute bottom-0 left-0 w-full h-20 bg-white blur-lg z-10 pointer-events-none"></div>
+      <div className="absolute bottom-[30px] left-0 w-full h-32 bg-white blur-lg z-10 pointer-events-none"></div>
 
       {/* Scrolling Container */}
       <div className="marquee-wrapper">
